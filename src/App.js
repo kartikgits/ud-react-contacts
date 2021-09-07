@@ -26,7 +26,6 @@ class App extends Component {
   }
 
   removeContact = (contact) => {
-    console.log("hello world")
     this.setState((currentState) => ({
       contacts: this.state.contacts.filter((c) => {
         return c.id !== contact.id
